@@ -1,0 +1,49 @@
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-06-29 20:45 +0530
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+RTTVAR has grown to over 2.3 seconds, decreasing to 2.0
+Nmap scan report for 192.168.220.1
+Host is up (0.027s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT    STATE SERVICE
+23/tcp  open  telnet
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 04:38:55:3B:23:D0 (Scopus International Pvt.)
+
+Nmap scan report for 192.168.220.33
+Host is up (0.048s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+443/tcp  open  https
+8800/tcp open  sunwebadmin
+MAC Address: 8C:90:2D:0E:5F:00 (TP-Link Systems)
+
+Nmap scan report for 192.168.220.37
+Host is up (0.27s latency).
+All 1000 scanned ports on 192.168.220.37 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 8E:44:3D:16:D9:BF (Unknown)
+
+Nmap scan report for 192.168.220.38
+Host is up (0.021s latency).
+All 1000 scanned ports on 192.168.220.38 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: D4:E9:8A:79:86:05 (Intel Corporate)
+
+Nmap scan report for 192.168.220.39
+Host is up (0.16s latency).
+All 1000 scanned ports on 192.168.220.39 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 70:BB:E9:39:D6:22 (Xiaomi Communications)
+
+Nmap scan report for 192.168.220.36
+Host is up (0.000031s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3580/tcp open  nati-svrloc
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 50.38 seconds
